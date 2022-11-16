@@ -10,7 +10,7 @@ if sys.argv[1] == "e":
     for x in text:
         if str(x) in chars.chardict:
             cry += str(chars.chardict[x])
-    with open(f"{sys.argv[2]}.cry", 'w') as e:
+    with open(f"{sys.argv[2]}.encry", 'w') as e:
         e.write(cry)
     e.close()
 elif sys.argv[1] == "d":
